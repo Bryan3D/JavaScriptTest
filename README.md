@@ -14,7 +14,7 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 
-Webpage Project : [JavaScript Quiz Test Webpage](https://bryan3d.github.io/JavaScriptTest/)
+Webpage Project : ** [JavaScript Quiz Test Webpage](https://bryan3d.github.io/JavaScriptTest/)**.
 
 GitHub Repository : https://github.com/Bryan3D/JavaScriptTest.git
 
