@@ -1,7 +1,7 @@
 # Challenge # 4 - JavaScript Practice Quiz Test
 
 ## Acceptance Criteria
-```
+
 GIVEN I am taking a code quiz
 WHEN I click the start button
 THEN a timer starts and I am presented with a question
@@ -14,7 +14,7 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 
-Webpage Project : ** [JavaScript Quiz Test Webpage](https://bryan3d.github.io/JavaScriptTest/)**.
+** [JavaScript Quiz Test Webpage](https://bryan3d.github.io/JavaScriptTest/)**.
 
 GitHub Repository : https://github.com/Bryan3D/JavaScriptTest.git
 
