@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to JavaScripts Practice Quiz Test</title>
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+  
+    
+    
+    
+    </style>
+</head>
+<body>
+    
+    <header class="headerWrapper">
+        <h1>Welcome to JavaScripts Practice Quiz Test</h1>
+
+    </header>
+    <div id="top-bar" class="topBar">
+    <ul class="ulTopBar">
+        <li >Your high scores is:<h2 id="quiz"></h2></li>
+        <li>Timer:<h3 id="timer" class="tempo-completo">1:00</h3></li>
+	</div>
+      
+    </ul>
+    </div>
+    
+
+
+    <div id="mainScreen" class="container">
+        <h2>Coding Quiz Challenge</h2>
+       
+        <h3>Note:</h3>
+        <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+    
+    <div>
+    <div class="quiz_container">
+            <div class="quiz-header">
+                <h2 id="question">Question text</h2>
+                <ul>
+                  <li> 
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a_text">Question</label>
+                  </li>
+         
+                  <li>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b_text">Question</label>
+                  </li>
+        
+                  <li>
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="c_text">Question</label>
+                  </li>
+        
+                  <li>
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label for="d" id="d_text">Question</label>
+                  </li>
+                </ul>
+              </div>
+        </div><br>
+        </div>
+   
+    <section>
+        <div class="start-btn">
+            <button id="submit" class="btn-start">Submit</button>
+            <button onclick="countdown(1)" class="btn-start">Start Quiz</button>
+            </div><br>
+    </section>
+    <footer>
+        
+    </footer>
+<script src="./assest/JS/script.js"></script>
+<!-- Counter  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"></script>
+<script src="./assest/JS/questions.js"></script>
+</body>
+</html>

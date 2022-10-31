@@ -1,0 +1,161 @@
+*, 
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Cairo', sans-serif;
+    list-style: none;
+    
+}
+section{
+    z-index: -10;
+}
+body{
+background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+max-height: 400px;
+
+}
+.container{
+width: 50%;
+margin: auto;
+background-color: rgb(36, 133, 208);
+background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+padding: 20px;
+border-radius: 10px;
+overflow: hidden;
+width: 600px;
+height: auto;
+border: 2px solid aqua;
+border-radius: 12px;
+margin-top: 110px;
+    
+}
+
+.container p h1 a{
+    text-align: center;
+    color: #333;
+    color: rgb(255, 255, 255);
+
+}
+
+/*  Choice Buttons */
+.btn-grad {
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+/* Start Button */
+         
+.btn-start {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    display: block;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .btn-start:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+
+.ulContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+#mainScreen h2{
+    height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom:30px;
+
+}
+
+.headerWrapper{
+   
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.headerWrapper h1{
+    font-size: 3em;
+    color: white;
+    text-align: center;
+
+}
+
+.topBar{
+    display:flex;
+    width: 100%;
+    /* flex-direction: column; */
+    background-color: rgb(217, 0, 255);
+    color: white 
+}
+.ulTopBar{
+    flex-wrap: non-wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Questions Area */
+#question{
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    display: block;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    font-size:1.5em;
+    height: auto;
+}
+
+/* Submit and start quiz button */
+
+
+.start-btn{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    
+}
+
+
+
+
