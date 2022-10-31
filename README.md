@@ -16,6 +16,6 @@ THEN I can save my initials and my score
 
 Webpage Project Link : **[JavaScript Quiz Test Webpage](https://bryan3d.github.io/JavaScriptTest/)**.
 
-GitHub Repository Link :**[Git Hub Repository link] https://github.com/Bryan3D/JavaScriptTest.git**
+GitHub Repository Link :**[Git Hub Repository link](https://github.com/Bryan3D/JavaScriptTest.git)**
 
 ![2022_10_30_20_17_04_Welcome_to_JavaScripts_Practice_Quiz_Test_Firefox_Developer_Edition](https://user-images.githubusercontent.com/10051887/198911109-e0762daa-2700-4fa0-b62f-e75eb0873f46.png)
