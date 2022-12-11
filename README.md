@@ -1,4 +1,4 @@
-# Challenge # 4 - JavaScript Practice Quiz Test
+JavaScript Practice Quiz Test
 
 ## Acceptance Criteria
 
